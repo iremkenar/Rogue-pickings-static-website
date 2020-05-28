@@ -1,8 +1,16 @@
+
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -36,6 +44,9 @@ p {
 
 /*The widths are in a percentage!*/
 header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
@@ -73,6 +84,9 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: 0 auto;
 	clear: both;
 }
@@ -146,6 +160,9 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
