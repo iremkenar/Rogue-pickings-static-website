@@ -153,6 +153,25 @@ footer span {
 
 @media all and (min-width: 768px) {
 /*------Tablet------*/
+.bottom-section {
+	justify-content: space-between;
+	align-items: flex-start;
+	border-top: 1px solid #eee;
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+	border-top: none;
+	flex-basis: 30%;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding: 0 20px;
+}
 
 }
 
