@@ -151,31 +151,49 @@ footer span {
 
 /*-------Media queries-------*/
 
-@media all and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 /*------Tablet------*/
-.bottom-section {
-	justify-content: space-between;
-	align-items: flex-start;
-	border-top: 1px solid #eee;
+	.bottom-section {
+		justify-content: space-between;
+		align-items: flex-start;
+		border-top: 1px solid #eee;
+	}
 
+	.section-one,
+	.section-two,
+	.section-three {
+		border-top: none;
+		flex-basis: 30%;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 20px;
+	}
 }
 
-.section-one,
-.section-two,
-.section-three {
-	border-top: none;
-	flex-basis: 30%;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-	padding: 0 20px;
-}
-
-}
-
-@media all and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 /*------Desktop------*/
+
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 40%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
 
 }
